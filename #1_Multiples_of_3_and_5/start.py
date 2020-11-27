@@ -5,6 +5,7 @@ def Sum_multiples_of_3_and_5(number_range):
             sum+=number
     print(sum)
 
+
 if __name__ == '__main__':
-    number_range = input('Input range:') 
-    Sum_multiples_of_3_and_5(1000)
+    number_range = int(input('Input range:'))
+    Sum_multiples_of_3_and_5(number_range)
